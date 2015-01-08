@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="paper.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>PSU Física | Apuntes para preparar la PSU Ciencias Física</title>
+
+	<script type="text/x-mathjax-config">
+	  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript"
+	  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+
+	<script type="text/javascript" src="a.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-58309055-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</head>
+<body>
+	<head>
+		<div class="container" >
+		<div class="jumbotron imgfondo">
+		<h1 align="center" style="color:white;">Apuntes para la preparación de la </br> Prueba de Selección Universitaria</h1>
+		<h4 align="right" style="color:white;">Verónica Saldaña y Nicolás Melgarejo. Profesores de Física y Matemática<br></h4>
+		
+		</div>
+	</head>
+
+	<section>
+	<h2>Presentación</h2>
+	<p style="float:right">
+
+	<i style="right">Toda la historia de la ciencia ha sido una progresiva <br>
+		toma de conciencia de los acontecimientos que no suceden <br>
+		de forma arbitraria, sino que reflejan un cierto orden subyacente,<br>
+		que puede ser o no divinamente inspirado</i>
+
+	</p>
+	<p style="clear: both;">La Física es una de las ramas de la ciencia considerada, generalmente, como uno de los contenidos más desafiantes para los estudiantes de Educación Media. El libro que te presentamos a continuación tiene como objetivos darte la oportunidad de conocer, entender y sorprenderte con parte de la Física, sirviéndote como guía para una de las etapas que determinarán tu futuro, el ingreso a la universidad.</p>
+
+	<p>La Prueba de Selección Universitaria de Ciencias es la herramienta que busca determinar las capacidades de comprensión y razonamiento, de retención de información, de análisis y síntesis de contenidos, de interpretación de datos y gráficos, de interpolación y extrapolación de información, de resolución de problemas y formulación de hipótesis.</p>
+	<p>En particular este libro está dedicado a los ítems evaluados en el Módulo Común de Física, los cuales hacen referencia a contenidos correspondientes a los niveles de primero y segundo a\~no de Educación Media, por lo tanto, las materias abarcadas en este texto son el movimiento, el electromagnetismo, el sonido, la luz, el calor y la Tierra y su entorno. Estos temas son tratados de acuerdo a los contenidos mínimos evaluados en la P.S.U. publicados por el DEMRE.</p>
+
+	<p>Este libro ha sido realizado completamente en el sistema de composición de textos $\LaTeX$, especialmente para los alumnos pertenecientes al $\cal{P}$reuniversitario $\cal{P}$opular $\cal{V}$íctor
+		$\cal{J}$ara.
+	</p>
+	<p align="left"><br>
+		<a target="_blank" href="http://www.ticlass.com"><img  class="img-responsive img-circle" src="img-nico.jpg"><br>Nico Melgarejo</a></p>
+<h2>Índice general</h2>
+	<ol>
+		<li>Introducción</li>
+		<li>Conceptos preliminares</li>
+		<li>Movimiento</li>
+		<li>Electromagnetismo</li>
+		<li>Calor</li>
+	</ol>
+
+
+	<div>
+
+		<h1>Contacto</h1>
+		<input type="text" name="valor1" id="valor1" class="" value="nombre">
+		<input type="text" name="valor2" id="valor2" class="" value="apellido">
+		<input type="submit" value="Enviar" class="" onclick="saluda(document.getElementById('valor1').value, document.getElementById('valor2').value)">
+
+	</div>
+
+
+<h1>Conceptos preliminares</h1>
+	<h2>Introducción</h2>
+		<p>La ciencia corresponde al conjunto de conocimientos que describen y explican las causas del orden de la naturaleza. Gracias a la ciencia 
+		se han realizado grandes progresos que han permitido la comprensión de nuestro universo a través de la observación, razonamiento,
+		 experimentación, análisis y replanteamiento de los fenómenos de la realidad. La ciencia que estudia las propiedades del espacio, el tiempo,
+		 la materia y la energía, así como sus relaciones, es la Física. Para lograr un entendimiento satisfactorio de esta ciencia, usted debe
+		 ser capaz de manejar algunos aspectos de la matemática, como dijo el famoso físico del siglo XIX, Lord Kelvin: ``... cuando usted puede
+		 medir algo y expresarlo en números, quiere decir que usted conoce algo acerca de eso ...'', de ahí que nuestro primer objetivo es que 
+		usted trabaje con estructuras matemáticas que lo ayudarán posteriormente en la medición de unidades, interpretación de gráficas, 
+		representación vectorial, en general, en la comprensión de las ideas expresadas en términos matemáticos.</p>
+
+	<h2>Magnitudes físicas</h2>
+		<p>Se entiende por <i>magnitud física</i> a toda cualidad de la naturaleza que pueda ser cuantificada, es decir, que se pueda contar, y por lo tanto,
+		 atribuirle a ésta un valor numérico. La cuantificación puede hacerse por medio de un patrón o parte de un patrón,
+		 por ejemplo usar un pie o un pulgar para medir distancias, del cual por concenso se desprenden las <i>unidades de medida</i>
+		 para cada magnitud física. Ejemplos de magnitudes físicas conocidas son la longitud, la masa , el tiempo,
+		 la densidad, la velocidad y la aceleración, las que se dividen en <i>fundamentales</i> y <i>derivadas</i>, y a su vez
+		en <i>escalares</i> y <i>vectoriales</i>.</p>
+		<h3>Magnitudes fundamentales</h3>
+			<p>
+			Son aquellas que se definen en sí mismas, es decir, no pueden expresarse a partir de otras.
+			 Estas magnitudes son la base para los distintos <i>sistemas de medida</i>.
+			 Las magnitudes fundamentales son siete y te las presentamos en la siguiente tabla con sus respectivas unidades de medida.</p>
+
+	 <table border="1" rules="all" align="center">
+	 	<thead>
+		 	<tr>
+			 	<th>Magnitud</th>
+			 	<th>Unidad en el S.I.</th>
+			 	<th>Símbolo</th>
+		 	</tr>
+		</thead>
+	 	<tbody>
+	 		<tr>
+	 			<td>Longitus</td>
+	 			<td>Metro</td>
+	 			<td>$[m]$</td>
+	 		</tr>
+	 		<tr>
+	 			<td>Masa</td>
+	 			<td>kilogramo</td>
+	 			<td>$[kg]$</td>
+	 		</tr>
+	 		<tr>
+
+	 			<td>Tiempo</td>
+	 			<td>Segundo</td>
+	 			<td>$[s]$</td>
+	 		</tr>
+	 		<tr>
+	 			<td>Temperatura</td>
+	 			<td>Kelvin</td>
+	 			<td>$[K]$</td>
+	 		</tr>
+	 		<tr>
+	 			<td>Intensidad luminosa</td>
+	 			<td>Candela</td>
+	 			<td>$[cd]$</td>
+	 		</tr>
+	 		<tr>
+	 			<td>Corriente eléctrica</td>
+	 			<td>Ampere</td>
+	 			<td>$[A]$</td>
+	 		</tr>
+	 		<tr>
+	 			<td>Cantidad de sustancia</td>
+	 			<td>Mol</td>
+	 			<td>$[mol]$</td>
+	 		</tr>
+	 	</tbody>
+	 </table>
+	<h3>Magnitudes derivadas</h3>
+		<p>Son infinitas y provienen de la combinación de dos o más magnitudes fundamentales,
+		por ejemplo la rapidez, aceleración y fuerza. Sus unidades de medida son, respectivamente, $\left[ \dfrac{m}{s} \right ]$, $\left[ \dfrac{m}{s^2}\right]$ y $\left[\dfrac{kg\cdotp m}{s^2} \right]$
+		</p>
+		
+		<div class="container">
+		<img src="telescopio1.png" class="img-responsive" style="width:30%; float:left; margin-right:1em;">
+		<img src="telescopio1.png" class="img-responsive" style="width:30%; float:left; margin-right:1em;">
+		<img src="telescopio1.png" class="img-responsive" style="width:30%; float:left; clear:right">
+		</div>
+<br>
+<p>Esto va con grillas de Bootstrap</p>
+		<div class="row">
+			<div class="col-md-4 col-sm-4 ">
+				<img src="telescopio1.png" class="img-responsive">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ">
+				<img src="telescopio1.png" class="img-responsive">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ">
+				<img src="telescopio1.png" class="img-responsive">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+		</div>
+
+
+
+	<h3>Magnitudes escalares</h3> 
+	<p>Son las que carecen de <i>sentido</i> y <i>dirección</i> y, por lo tanto, son <b>siempre positivas</b>, como por ejemplo la masa, el tiempo, las longitudes y la cantidad de sustancia. Se debe destacar que toda magnitud fundamental, es también una magnitud escalar.</p>
+
+	<h3>Magnitudes vectoriales</h3>
+	<p>Corresponde a aquellas magnitudes que además de tener un valor numérico o módulo, poseen <i>dirección</i> y <i>sentido</i>, como por ejemplo la velocidad, aceleración, fuerza y desplazamiento, entre otras. Los conceptos de magnitud, dirección y sentido serán explicados en mayor profundidad más adelante.</p>
+
+	<h2>Sistema de unidades</h2>
+	<p>Es un conjunto de unidades fundamentales, las cuales se usan como base para construir las unidades de las magnitudes derivadas.
+	 Destacan el <i>Sistema internacional</i> SI y el <i>Sistema cegesimal</i>.</p>
+	
+	<h3>Sistema internacional o M.K.S.</h3> 
+	<p>Utiliza como unidades fundamentales para la longitud, la masa y el tiempo al metro, kilógramo y segundo respectivamente.<p>
+
+	\subsection{Sistema cegesimal o C.G.S.}\index{C.G.S.}\index{Sistema! Cegesimal}
+	Utiliza como unidades fundamentales para la longitud, la masa y el tiempo al centímetro, gramo y segundo respectivamente.
+	\section{Conversión de unidades}
+	Llamamos conversión de unidades a la \textbf{acción de transformar el valor de una magnitud (fundamental o derivada) a otra con diferente unidad de medida, esto a través de uno o más factores, obteniendo como resultado una medida equivalente a la inicial}.
+	 Se recomienda al estudiante la utilización de sólo un sistema de unidades a la vez, ya que la mezcla de unidades de distintos sistemas puede llevar a confusiones. 
+	\subsection{Conversión para unidades fundamentales}
+	A continuación, se aplica el concepto de transformación de unidades para las magnitudes fundamentales de uso frecuente.
+	\subsubsection{$\rightarrow$ Longitud}\index{Longitud}
+	Su unidad fundamental es el \textbf{metro} $[m]$ y se define como \textbf{la longitud del trayecto recorrido en el vacío por la luz durante un tiempo de $\frac{1}{299\text{.}792\text{.}485}$ segundos}. En la ciudad de París, en la Oficina Internacional 
+	de Pesos y Medidas se encuentra la corporización más rigurosa y oficial del prototipo de un metro.
+	 El metro tiene múltiplos y submúltiplos los que presentamos en la siguiente tabla.
+ 
+</div>
+</section>
+</body>
+</html>
